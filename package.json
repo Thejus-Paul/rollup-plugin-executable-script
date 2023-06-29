@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-executable-script",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin to tell system to use node interpreter and provide executable permissions to the output file.",
   "license": "MIT",
   "author": "Thejus Paul",
