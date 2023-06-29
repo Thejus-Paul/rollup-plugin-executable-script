@@ -1,0 +1,52 @@
+{
+  "name": "rollup-plugin-executable-script",
+  "version": "1.0.0",
+  "description": "A plugin to tell system to use node interpreter and provide executable permissions to the output file.",
+  "license": "MIT",
+  "author": "Thejus Paul",
+  "homepage": "https://github.com/Thejus-Paul/rollup-plugin-executable-script",
+  "bugs": "https://github.com/Thejus-Paul/rollup-plugin-executable-script/issues",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.js",
+  "type": "module",
+  "types": "./types/index.d.ts",
+  "exports": {
+    "default": "./dist/index.cjs.js",
+    "import": "./dist/index.js",
+    "types": "./types/index.d.ts"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "rollup-plugin",
+    "executable",
+    "script"
+  ],
+  "peerDependencies": {
+    "rollup": "^2.78.0||^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "rollup": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "6.0.3",
+    "@rollup/plugin-commonjs": "25.0.2",
+    "@rollup/plugin-json": "6.0.0",
+    "@rollup/plugin-node-resolve": "15.1.0",
+    "rollup": "3.25.3",
+    "rollup-plugin-analyzer": "4.0.0",
+    "rollup-plugin-cleaner": "1.0.0"
+  }
+}
